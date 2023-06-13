@@ -104,7 +104,7 @@ tmux_set @prefix_highlight_output_suffix "#[fg=$TC]#[bg=$BG]$right_arrow_icon"
 #     
 # Left side of status bar
 tmux_set status-left-bg "$G04"
-tmux_set status-left-fg "G12"
+tmux_set status-left-fg "$G12"
 tmux_set status-left-length 150
 user=$(whoami)
 LS="#[fg=$G04,bg=$TC,bold] $user_icon $user@#h #[fg=$TC,bg=$G06,nobold]$right_arrow_icon#[fg=$TC,bg=$G06] $session_icon #S "
