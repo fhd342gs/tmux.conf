@@ -46,7 +46,8 @@ case $TC in
         TC='#00abab'
         ;;
     'forest' )
-        TC='#228b22'
+        TC='#33ff00'
+        #TC='#228b22'
         ;;
     'violet' )
         TC='#9370db'
