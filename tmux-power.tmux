@@ -104,7 +104,7 @@ tmux_set @prefix_highlight_output_suffix "#[fg=$TC]#[bg=$BG]$right_arrow_icon"
 #     
 # Left side of status bar
 tmux_set status-left-bg "$G04"
-tmux_set status-left-fg "$G12"
+tmux_set status-left-fg "G12"
 tmux_set status-left-length 150
 user=$(whoami)
 LS="#[fg=$G04,bg=$TC,bold] $user_icon $user@#h #[fg=$TC,bg=$G06,nobold]$right_arrow_icon#[fg=$TC,bg=$G06] $session_icon #S "
@@ -120,7 +120,7 @@ tmux_set status-left "$LS"
 
 # Right side of status bar
 tmux_set status-right-bg "$BG"
-tmux_set status-right-fg "$G12"
+tmux_set status-right-fg "G12"
 tmux_set status-right-length 150
 RS="#[fg=$G06]$left_arrow_icon#[fg=$TC,bg=$G06] $time_icon $time_format #[fg=$TC,bg=$G06]$left_arrow_icon#[fg=$G04,bg=$TC] $date_icon $date_format "
 if "$show_download_speed"; then
